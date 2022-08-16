@@ -17,9 +17,7 @@ class Patient {
         System.out.println("Enter Department");
         String department = sc.next();
     }
-    public enum department{
-        ONCOLOGY, NEUROLOGY, CARDIOLOGY, GYNOCOLOGY
-    }
+
     public void addingMultiplePatient() {
         System.out.println("Enter Details");
         Scanner sc = new Scanner(System.in);
